@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <input type="number" placeholder="enter number"id="user_input_number">
+    <br>
+    <br>
+    <button onclick="table()">Click me</button>
+    <div id="main"></div>
+
+    <script>
+
+        function table()
+        {
+           num= document.getElementById(user_input_number).value
+
+           
+           for(i=1;i<=10;i++)
+           {
+              console.log(num+"X"+i+"="+num*i)
+           }
+        }
+    </script>
+</body>
+
+</html>
